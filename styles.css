@@ -238,22 +238,26 @@ body {
 
 .banner-offers {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 65px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1px;
 }
 
 .banner-offers .offer-card {
   display: flex;
   position: relative;
-  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 32%;
-  height: auto;
   padding: 10px 11px;
-  margin-top: -16px;
   gap: 12px;
+}
+
+.offer-card {
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .offer-card div {
